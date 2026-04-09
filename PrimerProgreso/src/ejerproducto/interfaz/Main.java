@@ -25,6 +25,8 @@ public class Main {
         System.out.println("Precio: "+p2.getPrecio());
         System.out.println("Stock: "+p2.getStock());
 
+        p1.setPrecio(-20);
+        p1.setStock(-56);
         System.out.println();
         System.out.println(p1);
     }
