@@ -4,7 +4,7 @@ import ejerproducto.negocio.Producto;
 
 public class Main {
     public static void main(String[] args) {
-        Producto p1 = new Producto("cartulinas",0.15,100);
+        Producto p1 = new Producto("cartulinas",-0.15,-100);
         Producto p2 = new Producto();
         System.out.println("Datos del objeto p1");
         System.out.println("Nombre: "+p1.getNombre());
