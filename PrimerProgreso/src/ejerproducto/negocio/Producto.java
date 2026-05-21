@@ -14,8 +14,10 @@ public class Producto {
     }
     public Producto(String nombre,double precio,int stock){
         this.nombre = nombre;
-        this.precio = precio;
-        this.stock = stock;
+      /*  this.precio = precio;
+        this.stock = stock;*/
+        setPrecio(precio);
+        setStock(stock);
     }
 
     /*
@@ -59,6 +61,19 @@ public class Producto {
         return false;
 
     }
+
+     public void abastecer(int cantidad){
+        if (cantidad > 0)
+            stock += cantidad;
+     }
+     public double vender(int cantidad){
+        if (cantidad>0 && stock>=cantidad){
+            stock -= cantidad;
+            return cantidad * precio;
+
+        }
+         return 0;
+     }
     //sobreescribir
 @Override
     public String toString(){
