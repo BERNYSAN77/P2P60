@@ -4,8 +4,8 @@ import deitel13.negocio.Empleado;
 
 public class PruebaEmpleado {
     public static void main(String[] args) {
-        String nombre, apellido;
-        double salario;
+        String nombre = null, apellido = null;
+        double salario = 0;
         Empleado em1;
         Empleado em2;
 

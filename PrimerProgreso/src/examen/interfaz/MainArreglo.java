@@ -55,12 +55,12 @@ public class MainArreglo {
                         System.out.println("no existen modelos creados");
                 }break;
                 case 3:{
-                    if(mr != null){
+                /*    if(mr != null){
                         System.out.println("Ingrese el valor de entrada al modelo");
                         entrada = Double.parseDouble(sc.nextLine());
                         System.out.println(mr.evaluar(entrada));
                     }else
-                        System.out.println("no existen modelos creados");
+                        System.out.println("no existen modelos creados");*/
 
                 }break;
                 case 4:{

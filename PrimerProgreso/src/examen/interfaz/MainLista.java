@@ -106,6 +106,7 @@ public class MainLista {
         }while(opc != 6);
 
     }
+
     public static void menu(){
         System.out.println("**********Menú*********");
         System.out.println("1. Crear Modelo");
@@ -122,4 +123,4 @@ public class MainLista {
 
 
 
-}
+
