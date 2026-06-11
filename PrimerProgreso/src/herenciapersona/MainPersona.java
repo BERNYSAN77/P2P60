@@ -24,7 +24,22 @@ public class MainPersona {
                     for(Persona p: listado){
                         System.out.println(p);
                     }
-                }
+                }break;
+                case 5:{
+                    for(Persona p: listado){
+                        if(p instanceof  AlumnoPregrado)
+                            System.out.println(p);
+                    }
+                }break;
+                case 8:{
+                    //leer valor por hora
+                    for(Persona p: listado){
+                     /*   if(p instanceof ProfesorHora){
+                            ProfesoraHora ph = (ProfesorHora)p;
+                        }*/
+                    }
+
+                }break;
 
             }
 
